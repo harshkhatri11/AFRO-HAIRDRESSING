@@ -1,0 +1,305 @@
+@media (min-width:1200px){
+
+/*-----------------------------------------------navbar--------------------------------------------------------*/
+    .btn-group{
+    margin-left: 20px;
+}
+    .navbar{
+padding-left: 3rem;
+padding-right: 2rem;
+        
+}
+    .navbar-brand{
+    margin-right: 5rem;
+    }
+
+    
+/*------------------------------------------------home----------------------------------------------------------*/
+.info{
+    /*font-size: 20px;*/
+    font-size: 1.80vw;
+    text-align: center;
+    margin-left: 0px;;
+}
+  .spa{
+      /*font-size: 30px;*/
+      font-size: 2vw;;
+  }  
+    .fo1{
+        padding-left: 0;
+        padding-right: 0;
+        width: 80%;
+    }
+    #vertical{
+        align-items: flex-end;
+    }
+    /*---------------------------------------------------Footer---------------------------------------------------------*/
+    .foo-info{
+        line-height: 0.7;
+        text-align: center;
+    }
+    
+}
+@media (max-width:1199px){
+
+    /*---------------------------------------------navbar---------------------------------------------------------------*/
+    .navbar-brand img{
+        
+        margin-left:-20px;
+    }
+    .btn-group{
+        margin-left: -5px;
+    }
+    
+    
+    
+    /*------------------------------------------------Home--------------------------------------------------------------*/
+    #vertical{
+        /*display: none;*/
+    }
+
+    .fo1{
+        padding-right: 5px;
+        padding-left: 5px;
+        width: 90%;
+    }
+    .info{
+        font-size: 2.5vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .spa{
+        font-size: 3.4vw;
+    }
+    /*---------------------------------------------our guarantee--------------------------------------------------------*/
+    .cont-center h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .guar-para{
+        font-size: 20px;
+        text-align: left;
+
+    }
+    /*----------------------------------------------Footer------------------------------------------------------*/
+    .foo-info{
+        
+        text-align: center;
+    }
+}
+
+@media(max-width:991px){
+    
+/*-------------------------------------------navbar-------------------------------------------------------*/
+    .navbar-brand img{
+        
+        margin-left: -4px;
+    }
+    .btn-group{
+        margin-left: 0;
+    }
+/*------------------------------------------home--------------------------------------------------------------*/
+/*#vertical{
+    display: none;
+}*/
+
+.info{
+    font-size:2.5vw ;
+}
+
+.spa{
+    font-size: 3.4vw;
+}
+/*---------------------------------------How it works---------------------------------------------------------*/
+.arrow{
+    justify-content: center;
+}
+
+/*-------------------------------------our guarantee------------------------------------------------------------*/
+.girl-img{
+    display: none;
+}
+.cont-center h3{
+    font-size: 17px;
+}
+    /*-------------------------------------------Footer----------------------------------------------------------*/
+    .foo-info{
+        
+        text-align: left;
+    }
+}
+
+@media (max-width:767px){
+    /*-----------------------------------------navbar---------------------------------------------------------*/
+    .navi{
+    justify-content: flex-end;
+    }
+    
+    .info{
+        margin-top: 10px;
+        font-size: 20px;
+        
+    }
+    .spa{
+        font-size: 25px;
+        display: inline-block;
+    }
+    .nav-item a{
+        margin-right:2px;
+        margin-left: 0px;
+        margin-top:  5px;
+        font-size: 15px;
+    }
+    
+    
+    .navbar-brand img{
+        
+        margin-left: 20px;
+    }
+/*-------------------------------------------Home--------------------------------------------------------------*/
+#vertical{
+    display: none;
+}
+
+.info{
+    text-align: left;
+    font-size: 2.8vw;
+}
+
+.spa{
+    font-size: 3.5vw;
+}
+/*--------------------------------------------HOW it works------------------------------------------------------*/
+.arrow{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.icon{
+    font-size: 10px;
+}
+.arrow{
+    display: none;
+}
+    /*---------------------------------------footer--------------------------------------------------------------*/
+    .foo-info{
+        
+        text-align: left;
+    }
+}
+    
+@media (max-width:575px){   
+/*-----------------------------------------navbar----------------------------------------------------------------*/
+    .a{
+    border-radius: 55px;
+    width: 125px;
+    }
+    .navbar{
+        display:flex;
+        justify-content: start;
+        
+    }
+/*-------------------------------------------Home-------------------------------------------------------------------*/
+#vertical{
+    display: none;
+}
+.info{
+    margin-top: 25px;
+    /*font-size: 4vw;*/
+    font-size: 15px;;
+}
+.spa{
+    font-size: 18px;;
+}
+.pad{
+    padding-left: 40px ;
+    padding-right: 0;; 
+}
+/*-------------------------------------how it works------------------------------------------------------------*/
+
+    .arrow{
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 10px;
+}
+
+.head2{
+    display: flex;
+    flex-direction: column;;
+}
+
+.head h2{
+    font-size: 25px;
+}
+.fa-border-icon {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fe34b4;
+    border-image: initial;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 3% 3% 3% 3%; 
+    color: #fe34b4
+}
+.bu{
+    font-size: 15px;
+}
+.arrow{
+    display: none;
+}
+}
+
+/*---------------------------------Our guarantee-----------------------------------------*/
+.guar-para{
+    text-align: center;
+}
+.cont-center h3{
+    font-size: 20px;
+}
+
+
+/*-----------------------------------Style------------------------------------------------*/
+.card-title{
+    font-size: 11px;
+}
+.style-but{
+    font-size: 13px;
+}
+.style h2{
+    margin-bottom: 1px;
+}
+
+
+/*-------------------------------------Are you hairdresser------------------------------------*/
+.cont-center h4{
+    font-size: 14px;
+}
+
+.para{
+    font-size: 14px;
+    text-align:justify;
+}
+
+.icon1{
+    font-size: 45px;
+}
+.hairdress h2{
+    font-size: 27px;;
+}
+
+.para{
+    text-align: center;
+}
+
+/*----------------------------------------Footer------------------------------------------------------*/
+.foo-info p{
+
+    margin-left: 1.5rem;
+}
+

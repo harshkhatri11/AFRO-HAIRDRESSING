@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+    color:black;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 70px 0;
+}
+h1,h2{
+    
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1{
+    word-spacing: 4px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    letter-spacing: 1px;
+    display: block;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+h2:after{        
+    content: " ";
+    display:block;
+    height: 2px;
+    background-color: #fe34b4;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px; 
+    font-weight: bold
+}
+/*--------------------------------header---------------------------------------------*/
+.a{
+    border-radius: 55px;
+    padding: 10px;
+    width: 125px;
+}
+
+.block{
+     background-color: #fe34b4;
+    color: white
+}
+
+.block:hover{
+    background-color: #fe34b4;
+    color: white
+}
+
+#active{
+    background-color: #fe34b4;
+    color: white
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.bg-color{
+    background-color: white;
+    
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-group{
+    margin-left: 40px;
+}
+.link-color{
+    color: black;
+}
+
+.log{
+color: black;
+}
+.log:hover{
+    color: black;
+    background-color: white;
+}
+
+.navbar-collapse{
+    flex-grow: 1;
+    justify-content: center;
+}
+
+/*------------------------------home---------------------------------------------*/
+
+.hero{
+    /*background-image:url(img/hero7.jpg);*/
+    background-image:url(img/hero4.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+.input{
+    width=75px;
+}
+.spa{
+font-size: 35px;
+    display: inline-block;
+}
+#vertical{
+    transform: rotate(270deg);  
+    /*color: dimgray;*/
+    font-size: 150%;
+    font-weight:400;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 110px;
+    margin-left: -110px;
+    padding-left: 0px;
+    text-shadow:  2px 2px 12px rgb(231, 71, 231);
+    color:black;
+}
+input[type=text]{
+    background-color: #ffeef9;
+}
+
+.info{
+    /*color: rgb(133, 129, 129);*/
+    color:black;
+    line-height: 1.6;
+    font-size: 27px;
+    margin-left: 50px;
+    
+}
+.pad{
+
+    padding-right:100px ;
+}
+
+.text{
+    text-shadow:  2px 2px 12px rgb(231, 71, 231);
+    
+}
+/*------------------------------How it works---------------------------------------*/
+
+
+
+
+.long-copy{
+    line-height:145%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+.head h2{
+    margin-bottom:3px;
+    font-weight: bold;
+}
+.head1 p{
+    font-size: 15px;
+    text-align: center;
+}
+#inf{
+    font-weight: 400;
+    font-size: 120%;
+    text-align: center;
+}
+
+.col-2 pre{
+    font-size: 15px;;
+}
+
+.arrow{
+    font-size: 10px;
+    display: flex;
+    margin-right:2px;
+    
+}
+
+.icon{
+    font-size: 15px;
+}
+
+.bu{
+    background-color:#fe34b4;
+    color: white;
+    
+} 
+.cent{
+    text-align: center;
+    font-weight: 800;
+}
+.btn-cent{
+    text-align: center;
+}
+.fa-border-icon {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fe34b4;
+    border-image: initial;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 9% 9% 9% 9%; 
+    color: #fe34b4
+}
+/*----------------------------------------our guarantee---------------------------------------------------*/
+.pink-bg{
+    background-color: #fe34b4;
+}
+
+.pink-bg h2:after{
+
+    background-color: white;
+}
+#service{
+color: white;}
+
+.mar{
+    margin-top: 100px;
+}
+
+span .im{
+    color:#fe34b4;
+}
+
+.icon-background{
+    color: white;
+}
+
+.cont-center h3{
+    text-align: center;
+}
+
+.fa-border-icon2 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fe34b4;
+    border-image: initial;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 6% 6% 6% 6%; 
+    color: #fe34b4
+}
+
+
+}
+/*-----------------------------------------------STYLES------------------------------------------------------*/
+
+
+.style h3{
+    font-weight: bold;
+}
+.card-body p{
+    font-weight: bold;
+}
+
+.card-body a{
+    background-color: #fe34b4;
+    color: white
+}
+.st{
+font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.card-width{
+    width: 100%;
+}
+/*-----------------------------------------------ARE YOU HAIRDRESSERS--------------------------------------------*/
+
+.hairdress h2:after{
+    display: none; 
+}
+
+.hairdress h2{
+    font-weight: bold;
+    display: block;
+}
+
+.cont-center{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-border-icon1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fe34b4;
+    border-image: initial;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 6% 6% 6% 6%; 
+    color: #fe34b4
+}
+-------------------------------------------Footer----------------------------------------------------------------*/
+.foo-info p{
+    line-height: 0.7;
+    text-align: center;
+}
+
+
+.social-icon i{
+    color: gainsboro;
+    margin-right: 35px;
+    font-size: 180%;
+    
+}
+.cont-center h6{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.copyright{
+    font-family: 'Lato','Arial',sans-serif;
+    text-align: center;
+}
+
+.bor{
+    border-right: 1px solid rgb(255, 132, 210);
+    height: 100%;
+}
+.fa-facebook-official:hover{color:#3b5998 ;}
+.fa-instagram:hover{ color: #E1306C;}
+.fa-twitter:hover{color: #55acee;}
+.fa-linkedin-square:hover{color:#0e76a8;}
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
