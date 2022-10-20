@@ -5,4 +5,4 @@
 - CSS3
 - BOOTSTRAP
 - RESPONSIVE
-- **Deployed website on**  : https://hungry-goodall-3be651.netlify.app/
+- **Deployed website on**  : https://afro-hairdressing.netlify.app/
